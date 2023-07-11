@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Speda-Bold";
+    src: url(./fonts/Speda-Bold.ttf);
+}
+body{
+    background-color: darksalmon;
+    background-size: cover;
+    background-origin: content-box;
+    font-family: 'Speda-Bold';
+    font-size: 16px;
+}
+form {
+    display: table;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+label {
+    display: table-cell;
+   
+}
+
+input{
+    display: table-cell;
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    
+}
+.subbtn{
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 120px;
+    background: #333;
+    color: #fff;
+    border: none;
+    
+    cursor: pointer;
+}
+.subbtn:hover{
+    border-radius: 25px;
+}
+.fbbtn{
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-right: 40px;
+}
+
+
+.googlebtn{
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-left: 44px;
+}
+
+.img{
+    width: 35px;
+    height: auto;
+    padding: 2px;
+}
